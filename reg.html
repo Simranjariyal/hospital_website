@@ -13,25 +13,27 @@
 
     <form action="index.php" method="post">
    Name  <input type="text" name="Name" id="Name" placeholder="Enter name"minlength="3">
-   Roll no.<input type="number" name="Roll" id="Roll" placeholder="Enter Roll no.">
+   Gender <select name="gender" id="gender">
+<option value="male">Male</option>
+<option value="female">Female</option>
+<option value="other">Other</option>
+   </select>
    Age<input type="number" name="Age" id="Age" placeholder="Enter age" minlength="1">
    Course<select name="Course" id="Course" >
-    <option value="MBA">MBA</option>
-    <option value="BHM">BHM</option>
-    <option value="B.TECH">B.TECH</option>
-    <option value="Msc">Msc</option>
-    <option value="Yoga">Yoga</option>
+    <option value="Dental opd">Dental opd</option>
+    <option value="Eye opd">Eye opd</option>
+    <option value="children opd">children opd</option>
+    <option value="general surgery">general surgery</option>
+    <option value="skin opd">skin opd</option>
    </select>
-   Semester<select name="Sem" id="Sem" >
-    <option value="1">I</option>
-    <option value="2">II</option>
-    <option value="3">III</option>
-    <option value="4">IV</option>
-    <option value="5">V</option>
-    <option value="6">VI</option>
-    <option value="7">VII</option>
-    <option value="8">VIII</option>
-   </select>
+Visiting Date<input type="date" id="visiting date">
+    <script>
+        // Get the current date in the format YYYY-MM-DD
+        const today = new Date().toISOString().split('T')[0];
+    
+        // Set the minimum date for the input element
+        document.getElementById('date').min = today;
+      </script>
    Mobile no.<input type="number"
    name="MOBILE" id="Mobile" placeholder="Enter mobile number" minlength="10" maxlength="10">
    <BR>
