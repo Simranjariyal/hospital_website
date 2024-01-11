@@ -127,6 +127,7 @@ h2{
     min-width: 150px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    color: black;
 }
 
 .section:hover .dropdown {
@@ -136,10 +137,13 @@ h2{
 .dropdown a {
     padding: 12px 16px;
     display: block;
+    color: black;
+   
 }
 
 .dropdown a:hover {
-    background-color: #f1f1f1;
+    background-color: rgb(255, 230, 0);
+    
 }
 .virtual tour{
     border-radius: 50px;
@@ -236,10 +240,12 @@ h2{
 .marquee-container {
     overflow: hidden;
     width: 100%;
+    display: flex;
 }
 
 /* Style for the list to create the sliding effect */
 .marquee {
+    text-align: left;
     list-style: none;
     padding: 0;
     animation: marquee 25s linear infinite; /* Adjust animation duration and timing as needed */
