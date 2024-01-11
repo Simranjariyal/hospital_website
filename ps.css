@@ -37,11 +37,7 @@ background: linear-gradient(45deg, #6bff90, #7562ff, #d8e344, #118AB2);
     height: 30%;
     padding: 3px;
     display: flex;
-<<<<<<< HEAD
     justify-content:space-between;
-=======
-    justify-content: space-evenly;
->>>>>>> d812a9440f4afd823be01265d5786afa8be91b14
     align-items: center;
     width: 100%;
     background:linear-gradient(to right,pink,blue);
@@ -61,34 +57,21 @@ a {
   
 }
 
-<<<<<<< HEAD
-input {
+input{
     width: 150px;
     align-self: auto;
   
-=======
-input[type="text"] {
-    padding: 5px;
-    margin-right: 0px;
->>>>>>> d812a9440f4afd823be01265d5786afa8be91b14
 }
 
-button {
+button{
  
     background-color: yellow;
     color: blue;
-<<<<<<< HEAD
     border-radius: 20px;
     
     
     
     
-=======
-    /* margin left: 5px; */
-    margin-right: 5px;
-    border-radius: 10px;
-    margin-right: 50px;
->>>>>>> d812a9440f4afd823be01265d5786afa8be91b14
 }
 h1{
     background:linear-gradient(to right,white,rgb(104, 199, 234),white);
@@ -110,9 +93,7 @@ h2{
     color: white;
 
 }
-.reg{
-    background-color: ;
-}
+
 .reg button{
     background-color: rgb(80, 139, 228);
     border:2px black solid;
@@ -322,8 +303,8 @@ h2{
 .swiper {
 
     
-  width: 2000px;
-  height: 700px;
+  width: 100%;
+  height: 100%;
 }
 
 .swiper-slide {
